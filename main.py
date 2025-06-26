@@ -4,7 +4,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure the Generative AI model
-genai.configure(api_key="AIzaSyBALDT_VSBVW60zTfTR9ZAeUDVWSXFDCCg")
+genai.configure(api_key="AIzaSyBALDT_VSBVW60zTfTR9ZAeUDVWSXFDCCg") #I know but. it is expired :)
 
 generation_config = {
     "temperature": 1,
